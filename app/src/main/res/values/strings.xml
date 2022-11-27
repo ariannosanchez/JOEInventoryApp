@@ -22,5 +22,9 @@
     <string name="EtStock">Stock</string>
     <string name="EtNota">Nota</string>
 
+    <!---Menú agregar producto-->
+    <string name="Guardar_Producto">Guardar</string>
+
+
 
 </resources>
