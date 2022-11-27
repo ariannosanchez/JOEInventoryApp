@@ -5,7 +5,7 @@
     <string name="Opcion_Ajustes">Ajustes</string>
     <string name="Opcion_Salir">Salir</string>
 
-    <!--FAB-->
+    <!--FAB ADD PRODUCTO-->
     <string name="FAB_AgregarProducto">Agregar</string>
 
     <!--Drawer Layout-->
@@ -13,5 +13,14 @@
     <string name="navigation_drawer_close">Close</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Diseño agregar password-->
+    <string name="EtTitulo">Título</string>
+    <string name="EtCorreoProveedor">Correo del Proveedor</string>
+    <string name="EtNombreProveedor">Nombre de Proveedor</string>
+    <string name="EtProducto">Producto</string>
+    <string name="EtStock">Stock</string>
+    <string name="EtNota">Nota</string>
+
 
 </resources>

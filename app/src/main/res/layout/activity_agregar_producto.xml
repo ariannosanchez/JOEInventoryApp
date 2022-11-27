@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".OpcionesProducto.Agregar_Producto">
+  <androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!--TITULO-->
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+        android:id="@+id/EtTitulo"
+        android:hint="@string/EtTitulo"
+        android:textSize="25sp"
+        android:maxLines="1"
+        android:inputType="textCapWords|text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:padding="15dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--Producto-->
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+        android:id="@+id/EtProducto"
+        android:hint="@string/EtProducto"
+        android:maxLines="1"
+        android:textSize="18sp"
+        android:inputType="textCapWords|text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:padding="15dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--STOCK-->
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+        android:id="@+id/EtStock"
+        android:hint="@string/EtStock"
+        android:maxLines="1"
+        android:textSize="18sp"
+        android:digits="1234567890"
+        android:inputType="number"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:padding="15dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--NOMBRE PROVEEDOR-->
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+        android:id="@+id/EtNombreProveedor"
+        android:hint="@string/EtNombreProveedor"
+        android:maxLines="1"
+        android:textSize="18sp"
+        android:inputType="textCapWords|text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:padding="15dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <!--CORREO DEL PROVEEDOR-->
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+        android:id="@+id/EtCorreoProveedor"
+        android:hint="@string/EtCorreoProveedor"
+        android:maxLines="1"
+        android:textSize="18sp"
+        android:inputType="textCapWords|text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensans_regular"
+        android:padding="15dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--NOTA-->
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <EditText
+        android:id="@+id/EtNota"
+        android:hint="@string/EtNota"
+        android:maxLines="1"
+        android:textSize="18sp"
+        android:inputType="textCapSentences|textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="start"
+        android:fontFamily="@font/opensans_regular"
+        android:padding="15dp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
